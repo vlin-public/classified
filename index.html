@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <title>classified</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
     <canvas id="canvas"></canvas>
-    <script src='js/stats.min.js'></script>
+    <script src="js/stats.min.js"></script>
     <script src="js/index.js"></script>
     <div class="login">
       <form method="post" action="index.htm">
-        <p><input type="password" name="password" value="" placeholder=""></p>
+        <p><input id="password" type="password" name="password" value="" placeholder=""></p>
       </form>
     </div>
+   <script>document.getElementById("password").focus();</script>
   </body>
 </html>

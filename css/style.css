@@ -114,6 +114,7 @@ input[type=password] {
 
   margin: auto;
 
+  letter-spacing: 2px;
   text-align: center;
   padding: 0 10px;
   width: 200px;
