@@ -353,12 +353,12 @@ function eventListenerz() {
 		e.preventDefault();
 		controls.className = controls.className === 'closed' ? '' : 'closed';
 	}
-
+/*
 	for (var j = 0; j < 2; j++) {
 		controlToggles[j].addEventListener('click', toggleControls, false);
 	}
 
-	snapshotBtn.addEventListener('click', M.snapshot, false);
+	snapshotBtn.addEventListener('click', M.snapshot, false);*/
 
 }
 

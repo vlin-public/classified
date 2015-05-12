@@ -10,11 +10,20 @@
     <canvas id="canvas"></canvas>
     <script src="js/stats.min.js"></script>
     <script src="js/index.js"></script>
+    <section class="container">
     <div class="login">
-      <form method="post" action="index.htm">
-        <p><input id="password" type="password" name="password" value="" placeholder=""></p>
+      <form method="post" action="index.html">
+       <p><input id="login" type="text" name="login" value="" placeholder="username">
+        <!--onmouseover="focusId('login')" onclick="focusId('login')">-->
+      </p>
+        <p><input id="pass" type="password" name="password" value="" placeholder="password">
+        <!--onmouseover="focusId('pass')" onclick="focusId('pass')--></p>
+        <p><input id="service" type="text" name="service" value="" placeholder="service">
+        <!--onmouseover="focusId('service')" onclick="focusId('service')"--></p>
+        <p><input id="enter" type="submit"</p>
       </form>
     </div>
-   <script>document.getElementById("password").focus();</script>
+    <script src="js/helper.js"></script>
+  </section>
   </body>
 </html>
